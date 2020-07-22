@@ -8,6 +8,6 @@ public interface MyInterfaceA {
     void methodA();
     void methodAbs();
     default void methodDefault(){
-
+        System.out.println("ddd");
     }
 }
